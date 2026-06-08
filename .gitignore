@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flutter/Dart build files
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+business_dashboard/build/
+
+# Frappe bench generated directories
+frappe/frappe-bench/env/
+frappe/frappe-bench/config/
+frappe/frappe-bench/logs/
+frappe/frappe-bench/sites/assets/
+frappe/frappe-bench/sites/development.localhost/
+
+# Frappe framework (already tracked in its own official github repo)
+frappe/frappe-bench/apps/frappe/
